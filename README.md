@@ -5,20 +5,20 @@ Titan Storage is an advanced cloud storage application, integrating a visual int
 The test example implements file uploading, listing files that have been uploaded, fetching file, fetching file sharing links, deleting file
 
 
-### 1 Register from https://storage.titannet.io, and create API Key
+### 1.Register from https://storage.titannet.io, and create API Key
 ![Alt text](doc/20231113173719.png)
 
-### 2 Build example
+### 2.Build example
     git clone github.com/Filecoin-Titan/titan-storage-sdk.git
     cd /titan-storage-sdk/example
     go build
 
 
-### 3 Setting environment variable
+### 3.Setting environment variable
 	export API_KEY=YOUR-API-KEY
 	export TITAN_URL=https://cassini-locator.titannet.io:5000/rpc/v0
 
-### 4 run test
+### 4.run test
 ##### 4.1 Upload file
 	./example upload /path/to/file
 ##### 4.2 List file
